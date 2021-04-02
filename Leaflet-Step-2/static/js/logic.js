@@ -1,7 +1,3 @@
-var plates;
-var myMap;
-var link2 = "data/PB2002_plates.json";
-
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 d3.json(queryUrl, function(data) {
